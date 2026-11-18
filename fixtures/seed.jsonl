@@ -1,0 +1,4 @@
+{"type":"Component","data":{"slug":"sessions","store":"Redis","owner":""}}
+{"type":"Component","data":{"slug":"billing","store":"Postgres","owner":"payments"}}
+{"type":"Decision","data":{"slug":"old-store","status":"active"}}
+{"type":"Issue","data":{"slug":"migration","status":"open"}}

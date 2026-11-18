@@ -1,0 +1,6 @@
+{"type":"Component","data":{"slug":"sessions","store":"Postgres","owner":""}}
+{"type":"Decision","data":{"slug":"postgres-store","status":"accepted"}}
+{"edge":"Affects","from":"postgres-store","to":"sessions"}
+{"edge":"Affects","from":"postgres-store","to":"billing"}
+{"edge":"Supersedes","from":"postgres-store","to":"old-store"}
+{"type":"Issue","data":{"slug":"migration","status":"closed"}}

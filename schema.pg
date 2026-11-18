@@ -1,0 +1,15 @@
+node Component {
+  slug: String @key
+  store: String
+  owner: String
+}
+node Decision {
+  slug: String @key
+  status: String
+}
+node Issue {
+  slug: String @key
+  status: String
+}
+edge Affects: Decision -> Component
+edge Supersedes: Decision -> Decision

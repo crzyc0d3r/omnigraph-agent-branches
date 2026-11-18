@@ -1,0 +1,5 @@
+query components() {
+  match { $c: Component }
+  return { $c.slug as slug, $c.store as store, $c.owner as owner }
+  order { slug asc }
+}
